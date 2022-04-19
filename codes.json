@@ -1,0 +1,18 @@
+{
+    "beta": [
+    ["AAAA", "AAAB", "AAAC", "AAAD", "AAAE", "AAAF", "AAAG", "AAAH", "AAAI", "AAAK", "AAAL", "AAAM", "AAAN", "AAAO", "AAAP", "AAAR", "AAAS", "AAAT", "AAAU", "AAAV", "AAAW", "AAAX", "AAAY", "AAAZ"],
+    ["BBBA", "BBBB", "BBBC", "BBBD", "BBBE", "BBBF", "BBBG", "BBBH", "BBBI", "BBBK", "BBBL", "BBBM", "BBBN", "BBBO", "BBBP", "BBBR", "BBBS", "BBBT", "BBBU", "BBBV", "BBBW", "BBBX", "BBBY", "BBBZ"],
+    ["CCCA", "CCCB", "CCCC", "CCCD", "CCCE", "CCCF", "CCCG", "CCCH", "CCCI", "CCCK", "CCCL", "CCCM", "CCCN", "CCCO", "CCCP", "CCCR", "CCCS", "CCCT", "CCCU", "CCCV", "CCCW", "CCCX", "CCCY", "CCCZ"],
+    ["DDDA", "DDDB", "DDDC", "DDDD", "DDDE", "DDDF", "DDDG", "DDDH", "DDDI", "DDDK", "DDDL", "DDDM", "DDDN", "DDDO", "DDDP", "DDDR", "DDDS", "DDDT", "DDDU", "DDDV", "DDDW", "DDDX", "DDDY", "DDDZ"],
+    ["EEEA", "EEEB", "EEEC", "EEED", "EEEE", "EEEF", "EEEG", "EEEH", "EEEI", "EEEK", "EEEL", "EEEM", "EEEN", "EEEO", "EEEP", "EEER", "EEES", "EEET", "EEEU", "EEEV", "EEEW", "EEEX", "EEEY", "EEEZ"],
+    ["FFFA", "FFFB", "FFFC", "FFFD", "FFFE", "FFFF", "FFFG", "FFFH", "FFFI", "FFFK", "FFFL", "FFFM", "FFFN", "FFFO", "FFFP", "FFFR", "FFFS", "FFFT", "FFFU", "FFFV", "FFFW", "FFFX", "FFFY", "FFFZ"]
+    ],
+    "title" : [
+        "piano",
+        "violin",
+        "flute",
+        "clarinet",
+        "bassoon",
+        "oboe"
+    ]
+}
