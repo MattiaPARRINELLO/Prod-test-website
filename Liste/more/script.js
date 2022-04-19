@@ -1,0 +1,24 @@
+var url = new URLSearchParams(window.location.search);
+var type = url.get('type');
+var datas = ""
+var description = ""
+var price = ""
+var title = ""
+var link = ""
+var descriptionEl = document.getElementById("description")
+var priceEl = document.getElementById("price")
+var titleEl = document.getElementById("title")
+var linkEl = document.getElementById("download")
+var audio = document.getElementById("audio")
+var json = $.getJSON('../../Prods.json').done(function () {
+    datas = json.responseJSON
+    description = datas[type][0].description
+    price = datas[type][0].price
+    title = datas[type][0].name
+    descriptionEl.innerHTML = description
+    priceEl.innerHTML = price
+    titleEl.innerHTML = title
+    document.title = title
+    linkEl.href = "../../Prods-test/" + title + ".mp3"
+    audio.src = "../../Prods-test/" + title + ".mp3"
+});
