@@ -7,7 +7,7 @@ function download() {
         for (var i = 0; i < codes.beta.length; i++) {
             var a = codes.beta[i]
             if (a.includes(input.value)) {
-                window.location.href = "/Prods/" + codes.title[i++] + ".mp3"
+                window.location.href = "./Prods/" + codes.title[i++] + ".mp3"
             }
         }
     });
