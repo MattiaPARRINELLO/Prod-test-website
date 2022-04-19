@@ -1,6 +1,6 @@
 function download() {
     var input = document.getElementById("code");
-    var json = $.getJSON('codes.json').done(function () {
+    var json = $.getJSON('./codes.json').done(function () {
         var codes = json.responseJSON
         console.log(codes)
         console.log(codes.beta + codes.title)
