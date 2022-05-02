@@ -1,0 +1,11 @@
+<Files "codes.json">
+ErrorDocument 403
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files "Prods.json">
+    ErrorDocument 403
+    Order Allow,Deny
+    Deny from all
+    </Files>
