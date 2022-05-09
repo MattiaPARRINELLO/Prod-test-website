@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <label for="file">Fichier sans tag : </label>
+        <input type="file" name="fileTag" id="fileTag" value="Fichier avec tag"><br><br>
+        <label for="file">Fichier avec tag : </label>
+        <input type="file" name="fileNoTag" id="fileNoTag" value="Fichier sans tag">
+        <label for="title">Titre</label>
+        <input type="text" name="title" id="title" value="Titre"><br><br>
+        <label for="description">Description</label>
+        <input type="text" name="description" id="description" value="Description"><br><br>
+        <label for="prix">Prix</label>
+        <input type="text" name="prix" id="prix" value="Prix"><br><br>
+        <label for="code">Code</label>
+        <input type="text" name="code" id="code" value="Code"><br><br>
+        <input type="submit" value="Upload">
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

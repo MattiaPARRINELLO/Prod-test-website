@@ -10,7 +10,7 @@ var priceEl = document.getElementById("price")
 var titleEl = document.getElementById("title")
 var linkEl = document.getElementById("download")
 var audio = document.getElementById("audio")
-var json = $.getJSON('../../Prods.json').done(function () {
+var json = $.getJSON('../../json/prods.json').done(function () {
     datas = json.responseJSON
     description = datas[type][0].description
     price = datas[type][0].price
@@ -19,6 +19,6 @@ var json = $.getJSON('../../Prods.json').done(function () {
     priceEl.innerHTML = price
     titleEl.innerHTML = title
     document.title = title
-    linkEl.href = "../../Prods-test/" + title + ".mp3"
-    audio.src = "../../Prods-test/" + title + ".mp3"
+    linkEl.href = "../../prod-test" + title + ".mp3"
+    audio.src = "../../prod-test" + title + ".mp3"
 });
